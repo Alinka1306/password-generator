@@ -7,17 +7,24 @@ body {
     font-size: 150%;
     font-family: "Roboto Condenced", arial;
 }
-button {
+button, #password1, #password2 {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     color: white;
     margin: 20px 5px;
+    font-size: 100%;
 }
 #generate-password {
     background-color: rgb(50, 203, 142);
 }
+#password-container {
+    display: inline-block;
+}
 #password1, #password2 {
     color:rgb(50, 203, 142);
     background-color: rgb(57, 57, 90);
+    min-width: 200px;
+    display: inline-block;
+    margin-right: 10px;
 }
